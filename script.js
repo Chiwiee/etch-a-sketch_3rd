@@ -26,7 +26,7 @@ button.addEventListener("click", () => {
   gridContainer.classList = "grid-container";
 
   function getValue() {
-    const input = prompt("Pick between: 32x32 or 64x64");
+    const input = prompt("Pick between: 32x32, 64x64, 100x100");
     if (input == 32) {
       value = 32;
       return value;
