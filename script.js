@@ -1,4 +1,5 @@
 let value = 16;
+console.log(value);
 
 for (let i = 1; i <= value * value; i++) {
   const container = document.querySelector("#grid-container");
@@ -23,4 +24,4 @@ function getValue() {
   }
 }
 const button = document.querySelector("#button");
-button.addEventListener("click", () => {});
+button.onclick = () => getValue();
