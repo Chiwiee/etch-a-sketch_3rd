@@ -33,6 +33,9 @@ button.addEventListener("click", () => {
     } else if (input == 64) {
       value = 64;
       return value;
+    } else if (input == 100) {
+      value = 100;
+      return value;
     }
   }
   const input = getValue();
@@ -43,4 +46,6 @@ button.addEventListener("click", () => {
     grid.classList = "grid";
     container.appendChild(grid);
   }
+
+  function changeFbasis() {}
 });
