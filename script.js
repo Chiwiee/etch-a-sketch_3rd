@@ -50,6 +50,9 @@ button.addEventListener("click", () => {
     } else if (input == 64) {
       grid.style.flexBasis = "1.5625%";
       container.appendChild(grid);
+    } else if (input == 100) {
+      grid.style.flexBasis = "1%";
+      container.appendChild(grid);
     }
   }
 });
