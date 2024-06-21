@@ -43,6 +43,10 @@ button.addEventListener("click", () => {
     const container = document.querySelector(".grid-container");
     const grid = document.createElement("div");
     grid.classList = "grid";
-    container.appendChild(grid);
+
+    if (input == 32) {
+      grid.style.flexBasis = "3.125%";
+      container.appendChild(grid);
+    }
   }
 });
