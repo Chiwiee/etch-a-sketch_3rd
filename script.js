@@ -35,6 +35,7 @@ button.addEventListener("click", () => {
       return value;
     } else if (input == 100) {
       value = 100;
+      return value;
     }
   }
   const input = getValue();
