@@ -1,6 +1,6 @@
 let defaultValue = 16;
 
-for (let i = 1; i <= 16 * 16; i++) {
+for (let i = 1; i <= defaultValue * defaultValue; i++) {
   const container = document.querySelector("#grid-container");
   const grid = document.createElement("div");
   grid.classList = "grid";
@@ -13,3 +13,5 @@ grid.forEach((grid) => {
     e.target.style.background = "black";
   });
 });
+
+const button = document.querySelector("#button");
