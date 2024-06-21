@@ -48,20 +48,5 @@ body {
   aspect-ratio: 1 / 1;
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 6.25%;
-  border: 1px solid rgba(0, 0, 0, 0.062);
-}
-.small-grid {
-  aspect-ratio: 1 / 1;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 3.125%;
-  border: 1px solid rgba(0, 0, 0, 0.062);
-}
-.medium-grid {
-  aspect-ratio: 1 / 1;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 1.5625%;
   border: 1px solid rgba(0, 0, 0, 0.062);
 }
