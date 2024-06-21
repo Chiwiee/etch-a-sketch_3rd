@@ -17,9 +17,13 @@ grid.forEach((grid) => {
 
 const button = document.querySelector("#button");
 button.addEventListener("click", () => {
-  const mainContainer = document.querySelector("#main-container");
-  const gridContainer = document.querySelector("#grid-container");
-  mainContainer.removeChild(gridContainer);
+  const mContainer = document.querySelector("#main-container");
+  const gContainer = document.querySelector("#grid-container");
+  mContainer.removeChild(gContainer);
+
+  const gridContainer = document.createElement("div");
+  mContainer.appendChild(gridContainer);
+  gridContainer.classList = "grid-container";
 
   function getValue() {
     const input = prompt("Pick between: 32x32 or 64x64");
@@ -34,7 +38,7 @@ button.addEventListener("click", () => {
   const input = getValue();
 
   for (let i = 1; i <= input * input; i++) {
-    const container = document.querySelector("#grid-container");
+    const container = document.querySelector(".grid-container");
     const grid = document.createElement("div");
     grid.classList = "grid";
     container.appendChild(grid);
