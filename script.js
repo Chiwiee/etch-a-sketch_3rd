@@ -47,6 +47,9 @@ button.addEventListener("click", () => {
     if (input == 32) {
       grid.style.flexBasis = "3.125%";
       container.appendChild(grid);
+    } else if (input == 64) {
+      grid.style.flexBasis = "1.5625%";
+      container.appendChild(grid);
     }
   }
 });
