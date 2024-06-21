@@ -1,6 +1,6 @@
-let defaultValue = 16;
+let value = 16;
 
-for (let i = 1; i <= defaultValue * defaultValue; i++) {
+for (let i = 1; i <= value * value; i++) {
   const container = document.querySelector("#grid-container");
   const grid = document.createElement("div");
   grid.classList = "grid";
@@ -17,7 +17,7 @@ grid.forEach((grid) => {
 function getValue() {
   const input = prompt("Pick between: 32x32 or 64x64");
   if (input == 32) {
-    return input * 2;
+    return value * 2;
   }
 }
 const button = document.querySelector("#button");
