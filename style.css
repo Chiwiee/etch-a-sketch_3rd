@@ -13,6 +13,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+#button {
+  margin: 10px 0px;
+  padding: 10px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 15px;
+}
 #grid-container {
   height: 500px;
   width: 500px;
