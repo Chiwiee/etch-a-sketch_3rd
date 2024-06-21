@@ -18,6 +18,8 @@ body {
   width: 500px;
   display: flex;
   flex-wrap: wrap;
+
+  border: 1px solid black;
 }
 #grid {
   aspect-ratio: 1 / 1;
