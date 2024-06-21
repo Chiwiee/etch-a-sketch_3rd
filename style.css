@@ -21,9 +21,10 @@ body {
 
   border: 1px solid black;
 }
-#grid {
+.grid {
   aspect-ratio: 1 / 1;
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 6.25;
+  flex-basis: 6.25%;
+  border: 1px solid black;
 }
