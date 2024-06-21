@@ -41,6 +41,6 @@ button.addEventListener("click", () => {
     const container = document.querySelector(".grid-container");
     const grid = document.createElement("div");
     grid.classList = `${input}-div`;
-    container.appendChild(`${input}-div`);
+    container.appendChild(grid);
   }
 });
