@@ -5,7 +5,9 @@ for (let i = 1; i <= 16 * 16; i++) {
   container.appendChild(grid);
 }
 
-const grid = document.querySelectorAll("#grid");
+const grid = document.querySelectorAll(".grid");
 grid.forEach((grid) => {
-  grid.addEventListener("mouseout", (e) => {});
+  grid.addEventListener("mouseout", (e) => {
+    e.target.style.background = "black";
+  });
 });
