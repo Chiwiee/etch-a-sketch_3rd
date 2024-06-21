@@ -11,6 +11,12 @@ body {
   display: flex;
   justify-content: center;
 }
+#grid-container {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
 #grid {
   aspect-ratio: 1 / 1;
   flex-grow: 1;
