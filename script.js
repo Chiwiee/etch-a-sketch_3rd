@@ -32,4 +32,11 @@ button.addEventListener("click", () => {
     }
   }
   const input = getValue();
+
+  for (let i = 1; i <= value * value; i++) {
+    const container = document.querySelector("#grid-container");
+    const grid = document.createElement("div");
+    grid.classList = "grid";
+    container.appendChild(grid);
+  }
 });
