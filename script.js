@@ -5,5 +5,5 @@ for (let i = 1; i <= 16 * 16; i++) {
   container.appendChild(grid);
 }
 
-const grid = document.querySelector("#grid");
+const grid = document.querySelectorAll("#grid");
 grid.forEach((grid) => {});
