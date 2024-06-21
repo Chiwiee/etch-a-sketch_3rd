@@ -39,7 +39,7 @@ button.addEventListener("click", () => {
 
   for (let i = 1; i <= input * input; i++) {
     const container = document.querySelector(".grid-container");
-    const grid = document.createElement("div");
+    const grid = document.createElement(`"${input}div"`);
     grid.classList = "grid";
     container.appendChild(grid);
   }
