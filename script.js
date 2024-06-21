@@ -1,3 +1,5 @@
+let defaultValue = 16;
+
 for (let i = 1; i <= 16 * 16; i++) {
   const container = document.querySelector("#grid-container");
   const grid = document.createElement("div");
