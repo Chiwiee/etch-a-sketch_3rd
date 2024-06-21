@@ -28,10 +28,10 @@ button.addEventListener("click", () => {
   function getValue() {
     const input = prompt("Pick between: 32x32 or 64x64");
     if (input == 32) {
-      value = 32;
+      value = "small";
       return value;
     } else if (input == 64) {
-      value = 64;
+      value = "medium";
       return value;
     }
   }
@@ -39,7 +39,7 @@ button.addEventListener("click", () => {
 
   for (let i = 1; i <= input * input; i++) {
     const container = document.querySelector(".grid-container");
-    const grid = document.createElement(`"${input}div"`);
+    const grid = document.createElement(`"${input}-div"`);
     grid.classList = "grid";
     container.appendChild(grid);
   }
