@@ -14,5 +14,6 @@ grid.forEach((grid) => {
   });
 });
 
+function getValue() {}
 const button = document.querySelector("#button");
 button.addEventListener("click", () => {});
