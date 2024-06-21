@@ -28,10 +28,10 @@ button.addEventListener("click", () => {
   function getValue() {
     const input = prompt("Pick between: 32x32 or 64x64");
     if (input == 32) {
-      value = "small";
+      value = 32;
       return value;
     } else if (input == 64) {
-      value = "medium";
+      value = 64;
       return value;
     }
   }
