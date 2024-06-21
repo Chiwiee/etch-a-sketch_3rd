@@ -7,6 +7,10 @@ body {
   font-family: "Monaspace Radon", "Radon", "monaspace", Arial, Helvetica,
     sans-serif;
 }
+#main-container {
+  display: flex;
+  justify-content: center;
+}
 #grid {
   aspect-ratio: 1 / 1;
   flex-grow: 1;
