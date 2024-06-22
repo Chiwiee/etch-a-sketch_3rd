@@ -22,16 +22,16 @@ body {
   border-radius: 15px;
 }
 #grid-container {
-  height: 700px;
-  width: 700px;
+  height: 1100px;
+  width: 1100px;
   display: flex;
   flex-wrap: wrap;
 
   border: 3px solid black;
 }
 .grid-container {
-  height: 1000px;
-  width: 1000px;
+  height: 1100px;
+  width: 1100px;
   display: flex;
   flex-wrap: wrap;
 
